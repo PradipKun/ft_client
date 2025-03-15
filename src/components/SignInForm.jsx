@@ -49,9 +49,9 @@ export const SignInForm = () => {
     // Uncomment the following code to trigger the login API call, show a loading toast,
     // and display a success or error message based on the response.
 
-    alert("I AM CALLING LOGIN API");
+   // alert("I AM CALLING LOGIN API");
 
-    /*-- remove this line
+    
     const pendingResp = loginUser(form);
     toast.promise(pendingResp, {
       pending: "Please wait .....",
@@ -64,7 +64,7 @@ export const SignInForm = () => {
     setUser(user);
     accessJWT && localStorage.setItem("accessJWT", accessJWT);
 
-    -- remove this line*/
+    
   };
 
   return (
